@@ -1,0 +1,10 @@
+clc;
+a1=imread("C:\Program Files\scilab-6.1.1\POPE\cameraman.png");
+[m,n]=size(a1);
+for i=1:m
+ for j=1:n
+ b1(i,j)=255 - a1(i,j);
+ end
+end
+subplot(1,2,1),imshow(a1),title('Original: Cavin Koshy 005');
+subplot(1,2,2),imshow(b1),title('Negation: Hanif Barbhuiya 008');

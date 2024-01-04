@@ -1,0 +1,10 @@
+a=imread('D:\KC IP Code\cameraman.png');
+[m,n]=size(a);
+for i=1:m
+ for j=1:n
+ x=a(i,j);
+ b(i,j)=20*log(1+double(x));
+ end
+end
+subplot(1,2,1),imshow(a),title('Original Image: Hanif Barbhuiya 008 005');
+subplot(1,2,2),imshow(b),title('Log Transform: Hanif Barbhuiya 008 005');

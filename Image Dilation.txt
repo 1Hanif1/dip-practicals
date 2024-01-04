@@ -1,0 +1,5 @@
+a1=imread('D:\KC IP Code\color.png');
+b1 = testmatrix('square',11);
+outputimage = imdilate(a1,b1);
+subplot(1,2,1),imshow(a1),title('Original Image: Cavin Koshy 005');
+subplot(1,2,2),imshow(b1),title('Dilation: Hanif Barbhuiya 008')

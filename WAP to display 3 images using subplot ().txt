@@ -1,0 +1,12 @@
+img1 = imread('D:\KC IP Code\cameraman.png');
+img2 = imread('D:\KC IP Code\color.png');
+img3 = imread('D:\KC IP Code\img.jpeg');
+subplot(2,2,1);
+title('Image 1: Hanif Barbhuiya 008’);
+imshow(img1);
+subplot(2,2,2);
+title('Image 2: Hanif Barbhuiya 008’);
+imshow(img2);
+subplot(2,2,3);
+title('Image 3: Hanif Barbhuiya 008’);
+imshow(img3);

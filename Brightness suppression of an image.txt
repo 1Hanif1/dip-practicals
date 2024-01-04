@@ -1,0 +1,17 @@
+clc;
+a = imread(‘D:\New folder\bwglass.jpg’);
+f1 = f - 50
+f2 = f - 50
+f3 = f - 80
+subplot(2,2,1);
+imshow(f);
+title(‘Original Image; (Hanif Barbhuiya 008)’);
+subplot(2,2,2);
+imshow(f1);
+title('Brightness decreased by 50;(Hanif Barbhuiya 008)');
+subplot(2,2,3);
+imshow(f2);
+title('Brightness decreased by 60;(Hanif Barbhuiya 008)');
+subplot(2,2,4);
+imshow(f1);
+title('Brightness decreased by 80;(Hanif Barbhuiya 008)');

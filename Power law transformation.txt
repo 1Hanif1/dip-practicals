@@ -1,0 +1,14 @@
+a=imread(' C:\Program Files\scilab-6.1.1\POPE\gojo.jpg');
+[m,n]=size(a);
+for i=1:m
+ for j=1:n
+ x=double(a(i,j));
+ b(i,j)=20*(x^0.4);
+ c(i,j)=20*(x^0.6);
+ d(i,j)=20*(x^0.9);
+ end
+end
+subplot(2,2,1),imshow(a),title('Original: Hanif Barbhuiya 008');
+subplot(2,2,2),imshow(b),title('Power Law Transform : Gamma = 0.4: Hanif Barbhuiya 008');
+subplot(2,2,3),imshow(c),title('Power Law Transform : Gamma = 0.6: Hanif Barbhuiya 008');
+subplot(2,2,4),imshow(d),title('Power Law Transform : Gamma = 0.9: Hanif Barbhuiya 008');
